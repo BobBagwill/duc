@@ -16,7 +16,7 @@ jobs:
     - name: aclocal
       run: aclocal
     - name: autoconf
-      run: autoconf
+      run: autoconf -i
     - name: configure
       run: ./configure
     - name: make
